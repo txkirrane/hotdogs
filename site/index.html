@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotdogs</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body {
+            margin: 0;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            min-height: 100%;
+
+            background: white;
+
+            padding: 1rem;
+        }
+
+        .card {
+            padding: 2rem;
+            border-radius: 20px;
+            background: white;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+            display: flex;
+            flex-flow: column nowrap;
+
+            align-items: center;
+            gap: 2rem;
+
+            max-width: 400px;
+
+            text-align: center;
+        }
+
+        h1, p {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 20px 40px;
+            background: maroon;
+            color: white;
+            font-weight: bold;
+            border-radius: 999px;
+
+            width: 100%;
+        }
+
+        img {
+            max-width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="hotdog.svg" />
+        <h1>Hotdogged</h1>
+        <p>
+            Have you ever wanted to confuse the ever living shit out of somebody?
+            Perhaps you need to spice up lunch time conversations at the office,
+            or maybe you would like to send a secret crush a gift that'll leave
+            them desperate to know who sent it. Whatever the occasion, treat them
+            to a single hotdog and bun, shipped directly to their doorstep in a
+            padded envelope. No context, no return address, just a frankfurter in
+            an envelope.*
+        </p>
+        <a href="https://buy.stripe.com/14k4gD1kY6rb3N64gg">Send a hotdog</a>
+        <small><i>
+            *We cannot guarantee the freshness or condition of the delivered goods,
+            and are not responsible for any bodily harm or death caused from eating
+            the frankfurter.
+        </i></small>
+    </div>
+</body>
+</html>
